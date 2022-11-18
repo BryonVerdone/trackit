@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "trackit",
+  "version": "1.0.0",
+  "description": "asset management mvp",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryonVerdone/trackit.git"
+  },
+  "author": "bryon verdone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryonVerdone/trackit/issues"
+  },
+  "homepage": "https://github.com/BryonVerdone/trackit#readme"
+}
