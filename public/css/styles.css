@@ -1,0 +1,12 @@
+.header {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+  transition: 300ms;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
