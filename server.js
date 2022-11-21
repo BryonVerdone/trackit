@@ -5,7 +5,7 @@ const mainRoutes = require('./routes/main');
 const mongoose = require('mongoose');
 require('dotenv').config({ path: './config/.env' });
 connectDB();
-
+app.use(express.static('public'));
 app.set('view engine', 'ejs');
 app.use('/', mainRoutes);
 app.listen(process.env.PORT, () => {
